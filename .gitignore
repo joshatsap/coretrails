@@ -1,0 +1,106 @@
+# Folders to ignore, whatever the place they are
+ 
+.metadata
+.recommenders
+classes
+hybris/bin/**/bin
+gensrc
+ 
+# Folders to ignore at the root of the repository
+hybris/log/
+ 
+# filter only custom extension
+hybris/bin/*
+!hybris/bin/custom/
+ 
+# Absolute path to ignore
+hybris/config/local.properties
+hybris/config-local/local.properties
+hybris-commerce-suite-5.2.0.9.zip
+ 
+ 
+# Filename patterns to ignore
+*.class
+Generated*.java
+platformhome.properties
+*testclasses.xml
+extensioninfo.xsd
+*hmc.jar
+hmc.xsd
+items.xsd
+beans.xsd
+ruleset.xml
+*.log
+base.properties
+!hybris/config-common/customize/*/base.properties
+*.bak
+
+#  Addon specific copy folders
+**/_ui/addons
+**/views/addons
+**/tld/addons
+**/tags/addons
+**/messages/addons
+**/addonsrc
+*_bof.jar
+
+hybris/bin/ext-*/
+hybris/bin/platform/
+hybris-dependencies/
+hybris-ems/
+hybris-sbg/
+hybris-Mobile-Apps-SDK/
+hybris/sampleconfigurations/
+hybris/config/
+hybris/temp/
+hybris-oms/
+hybris/Mobile-Commerce-SDK/
+licenses/
+hybris/data/
+hybris/**/build.xml
+pom.xml
+**/bin/**/bin
+**/gensrc/
+**/items.xsd
+**/beans.xsd
+**/classes/
+**/extensioninfo.xsd
+**/*hmc.jar
+**/hmc/classes/
+**/hmc.xsd
+**/platformhome.properties
+**/*-testclasses.xml
+
+hybris/bin/custom/cintasb2c/cintasb2cstorefront/web/commonwebsrc
+
+#remove jrebel nature from git.
+rebel.xml
+
+**/eclipsebin/
+
+# IntelliJ files
+**/.idea/
+hybris/out/
+*.iml
+
+# Python files
+*.pyc
+
+# FrontEnd files
+hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/js/cintas.global.js
+hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/js/cintas.global-min.js
+hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/js/cintas.global-min.js.map
+hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/js/jquery_extensions.js
+hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/js/jquery_extensions-min.js
+hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/js/jquery_extensions-min.js.map
+hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/theme-cintasrentals/css/style.css
+hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/theme-cintasrentals/css/style-min.css
+hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/theme-cintasrentals/css/style.css.map
+hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/bootstrap/
+hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/theme-cintasrentals/fonts
+
+# Jalo Classes
+hybris/bin/custom/cintasrentals/cintasrentalscore/src/com/cintas/rentals/core/jalo
+hybris/bin/custom/cintasrentals/dbmessagebundles/src/com/yes/dbmessagebundles/jalo
+
+hybris/bin/custom/cintaspayment/.settings/org.eclipse.core.resources.prefs
