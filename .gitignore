@@ -16,8 +16,7 @@ hybris/bin/*
 # Absolute path to ignore
 hybris/config/local.properties
 hybris/config-local/local.properties
-hybris-commerce-suite-5.2.0.9.zip
- 
+HYBRISCOMM6300P_5-70002554.zip
  
 # Filename patterns to ignore
 *.class
@@ -44,6 +43,9 @@ base.properties
 **/addonsrc
 *_bof.jar
 
+build-tools/
+c4x-integration/
+datahub-hybrid-adapter/
 hybris/bin/ext-*/
 hybris/bin/platform/
 hybris-dependencies/
@@ -55,8 +57,9 @@ hybris/config/
 hybris/temp/
 hybris-oms/
 hybris/Mobile-Commerce-SDK/
-licenses/
 hybris/data/
+installer/
+licenses/
 hybris/**/build.xml
 pom.xml
 **/bin/**/bin
@@ -71,7 +74,6 @@ pom.xml
 **/platformhome.properties
 **/*-testclasses.xml
 
-hybris/bin/custom/cintasb2c/cintasb2cstorefront/web/commonwebsrc
 
 #remove jrebel nature from git.
 rebel.xml
@@ -86,21 +88,8 @@ hybris/out/
 # Python files
 *.pyc
 
-# FrontEnd files
-hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/js/cintas.global.js
-hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/js/cintas.global-min.js
-hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/js/cintas.global-min.js.map
-hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/js/jquery_extensions.js
-hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/js/jquery_extensions-min.js
-hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/js/jquery_extensions-min.js.map
-hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/theme-cintasrentals/css/style.css
-hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/theme-cintasrentals/css/style-min.css
-hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/theme-cintasrentals/css/style.css.map
-hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/common/bootstrap/
-hybris/bin/custom/cintasrentals/cintasrentalsstorefront/web/webroot/_ui/desktop/theme-cintasrentals/fonts
 
 # Jalo Classes
 hybris/bin/custom/cintasrentals/cintasrentalscore/src/com/cintas/rentals/core/jalo
 hybris/bin/custom/cintasrentals/dbmessagebundles/src/com/yes/dbmessagebundles/jalo
 
-hybris/bin/custom/cintaspayment/.settings/org.eclipse.core.resources.prefs
