@@ -44,7 +44,7 @@ base.properties
 *_bof.jar
 
 build-tools/
-c4x-integration/
+c4c-integration/
 datahub-hybrid-adapter/
 hybris/bin/ext-*/
 hybris/bin/platform/
