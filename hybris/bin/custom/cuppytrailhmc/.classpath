@@ -11,5 +11,6 @@
 	<classpathentry kind="src" path="hmc/src"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/cuppytrail"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/hmc"/>
+	<classpathentry kind="src" path="gensrc"/>
 	<classpathentry kind="output" path="eclipsebin/notused"/>
 </classpath>
