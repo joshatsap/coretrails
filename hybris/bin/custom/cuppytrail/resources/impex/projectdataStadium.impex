@@ -1,5 +1,9 @@
 INSERT_UPDATE Stadium;code[unique=true];capacity
 ;VillaPark;42788
+;Molson;14000
+;Saputo;6758
+;Thunderbird;9567
+;Swangard;987
 
 UPDATE Match;id[unique=true];group(competition(code),code)[unique=true];stadium(code)
 ;1;wc2010:A;Emirates
