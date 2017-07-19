@@ -74,4 +74,17 @@ public class DefaultStadiumDAOIntegrationTest extends ServicelayerTransactionalT
 
 	}
 
+	@Test
+	public void testFindStadiumsEmptyString()
+	{
+		final List stadiums = stadiumDAO.findStadiumsByCode("");
+		assertTrue("No stadiums should be returned", stadiums.isEmpty());
+	}
+
+	@Test(expected = IllegalArgumentException.class)
+	public void testFindStadiumsNull()
+	{
+		stadiumDAO.findStadiumsByCode(null);
+	}
+
 }
