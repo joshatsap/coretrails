@@ -1,0 +1,9 @@
+#Ant properties
+#Mon May 08 16:18:08 CEST 2017
+builddate=20170508 1614
+description=cuppytrailfrontend
+name=cuppytrailfrontend
+releasedate=20161216 2030
+vendor=hybris
+version=6.3.0.5
+version.api=6.3.0
