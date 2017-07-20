@@ -11,7 +11,6 @@
 	<classpathentry kind="src" path="gensrc"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/cuppytrail"/>
 	<classpathentry kind="lib" path="web/webroot/WEB-INF/lib/jstl-api-1.2.jar"/>
-	<classpathentry kind="lib" path="web/webroot/WEB-INF/lib/spring-webmvc-3.1.1.RELEASE.jar"/>
 	<classpathentry kind="lib" path="web/webroot/WEB-INF/lib/standard.jar"/>
 	<classpathentry kind="output" path="eclipsebin/notused"/>
 </classpath>

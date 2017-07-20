@@ -37,7 +37,7 @@
         />
         <remember-me services-ref="rememberMeServices" key="adminweb"/>
         <logout logout-url="/j_spring_security_logout" logout-success-url="/login.jsp"/>
-        <csrf />
+        <csrf disabled="true"/>
         <headers>
             <frame-options disabled="true"/>
         </headers>
