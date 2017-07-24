@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<project name="build" default="all">
+
+    <!-- The filename of the hybris commerce suite zip archive to install when using "ant install" -->
+	<property name="hybris.zip.package.filename" location="hybris-commerce-accelerator-for-b2c-5.0.1.0.zip"/>
+ 
+    <import file="build/master.xml" />
+     
+    <!-- List of the custom extensions (separator ',') that should be considered for testing when using "ant junit" and "ant junitweb" -->
+    <property name="test.custom.extensions" value="cuppy,cuppytrail,cuppytrailbackoffice" />
+
+    <!-- List of the extensions (separator ',') that should be considered, in addition to the custom extensions, when using "ant junitadditional" and "ant junitwebadditional"
+    NB: extension filtering for web tests does not work in platform 5.0.1 -->
+    <property name="test.additional.extensions" value="yacceleratorstorefront" />
+ 
+</project>
