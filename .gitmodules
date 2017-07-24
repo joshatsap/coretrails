@@ -1,0 +1,3 @@
+[submodule "build"]
+	path = build
+	url = ssh://git@enterprise-stash.hybris.com:7999/pdm/shared-build.git
