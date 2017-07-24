@@ -95,7 +95,7 @@ public class StadiumCapacityIntegrationtTest extends ServicelayerTest
 	private NewsModel findLastNews()
 	{
 		final StringBuilder builder = new StringBuilder();
-		builder.append("SELECT {n:").append(NewsModel.PK).append("} ");
+		builder.append("SELECT {n:").append(NewsModel.PK).append("joshua} ");
 		builder.append("FROM {").append(NewsModel._TYPECODE).append(" AS n} ");
 		builder.append("WHERE ").append("{n:").append(NewsModel.COMPETITION).append("} IS NULL ");
 		builder.append("ORDER BY ").append("{n:").append(NewsModel.CREATIONTIME).append("} DESC");
