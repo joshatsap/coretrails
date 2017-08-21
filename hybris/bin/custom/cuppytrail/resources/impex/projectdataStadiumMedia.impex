@@ -1,0 +1,7 @@
+$catalogVersion=catalogVersion(catalog(id[default='Default']),version[default='Staged'])[unique=true];
+
+
+INSERT_UPDATE Media;code[unique=true];mediaContainer(qualifier,$catalogVersion);$catalogVersion; mime;realfilename;@media[translator=de.hybris.platform.impex.jalo.media.MediaDataTranslator][forceWrite=true];
+;beachStadium;beachStadiumContainer;;image/jpeg;nature_work.jpg;jar:de.hybris.platform.cuppytrail.jalo.CuppytrailManager&/cuppytrail/media/nature_work.jpg;
+;cityStadium;cityStadiumContainer;;image/jpeg;city_work.jpg;jar:de.hybris.platform.cuppytrail.jalo.CuppytrailManager&/cuppytrail/media/city_work.jpg;
+;discoStadium;discoStadiumContainer;;image/jpeg;nightlife_work.jpg;jar:de.hybris.platform.cuppytrail.jalo.CuppytrailManager&/cuppytrail/media/nightlife_work.jpg;
